@@ -17,6 +17,19 @@ async function bootstrap() {
 bootstrap();
 
 
+
+  dsn: 'https://34272539600044d894552d62c814f98a@o409427.ingest.sentry.io/5340604',
+
+
+
+s3Config := &aws.Config{
+		Credentials:      credentials.NewStaticCredentials("AKIAIOSFODNN7EXAMPLE", "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY", ""),
+		Endpoint:         aws.String("https://s3.mycompany.com"),
+		Region:           aws.String("us-east-1"),
+		S3ForcePathStyle: aws.Bool(true),
+	}
+    
+
 Blog::Application.config.secret_key_base = 'e8aab50cec8a06a75694111a4cbaf6e22fc288ccbc6b268683aae7273043c69b15ca07d10c92a788dd6077a54762cbfcc55f19c3459f7531221b3169f8171a53'
 
 
