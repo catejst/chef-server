@@ -32,7 +32,7 @@
     "passport": "^0.4.0",
     "passport-http-bearer": "^1.0.1",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^2.6.3",
+    "rimraf": "^4.0.0",
     "rxjs": "^6.2.2",
     "typeorm": "^0.2.12",
     "typescript": "^3.2.4"
